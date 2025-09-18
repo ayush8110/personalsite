@@ -141,8 +141,12 @@ h2{
 
 p{
     color: white;
-    font-weight: 50;
+    /* font-weight: 50; */
     /* font-size:20px; */
+      font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: 300; */
+    /* font-style: ; */
 }
 
 div.container2, div.container3, div.containerx,.container4{
