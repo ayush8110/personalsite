@@ -152,9 +152,9 @@ p{
     /* font-style: ; */
     /* margin:10px; */
     font-family: "Story Script", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
-    word-spacing: 5px;
+    word-spacing: 10px;
 }
 .container2 > p{
     margin: 10px;
