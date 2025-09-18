@@ -141,7 +141,8 @@ h2{
 
 p{
     color: white;
-    font-weight: 100;
+    font-weight: 50;
+    /* font-size:20px; */
 }
 
 div.container2, div.container3, div.containerx,.container4{
