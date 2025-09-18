@@ -1,0 +1,182 @@
+
+body{
+    background-color:rgb(14, 14, 14);
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin:20px;
+    margin-right: 50px;
+
+    /* border: solid;        */
+}
+.profile{
+       /* border: solid white 2px; */
+       box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+.details>p{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height:100px;
+    width: 200px;
+    /* border: solid; */
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.container2{
+    box-shadow: 0px 0px 10px rgb(18, 18, 18);
+    /* border: solid; */
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    height: 200px;
+    padding: 10px;
+}
+
+
+.container3{
+    box-shadow: 0px 0px 10px rgb(18, 18, 18);
+    /* border: solid; */
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    height: 150px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container4 > h3{
+    text-transform: capitalize;
+}
+
+.container4{
+    box-shadow: 0px 0px 10px rgb(18, 18, 18);
+    border-radius: 20px;
+    /* border: solid; */
+    margin: 20px;
+    margin-top: 40px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+
+.containerx{
+    display: flex;
+    flex-direction: column;
+    /* align-content:center; */
+    border-radius: 20px;
+    /* border: solid; */
+    margin: 20px;
+    margin-top: 0px;
+    height: 700px;
+    padding: 10px;
+}
+
+.containerx > h2{
+    /* margin: 0px; */
+    word-spacing: 20px;
+    text-transform: capitalize;
+    /* border: solid; */
+}
+.containerx > img{
+    float:left;
+
+}
+.containerx >p{
+    /* border: solid; */
+    height: 100px;
+    padding:10px;
+}
+
+.repair1{
+    margin-left: 10px;
+    /* border: solid; */
+    width:100px;
+}
+
+.container5{
+    display: flex;
+    gap: 50px;
+    /* border: solid; */
+    padding-left:50px;
+    /* height: 300px; */
+}
+.container5 >div> img{
+    height:50px;
+    width: 50px;
+    float: right;
+    /* border: solid; */
+
+}
+.f{
+    font-family: cursive;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 2rem;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  /* border: solid; */
+  height: 100px;
+
+}
+
+h2{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+p{
+    color: white;
+    font-weight: 100;
+}
+
+div.container2, div.container3, div.containerx,.container4{
+    /* border: solid rgb(0, 0, 0) 2px; */
+    background-color:rgba(0, 0, 0, 0.351);
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h2,h1{
+    margin-left: 10px;
+}
+
+.connect1 > img{
+    /* border-radius: 0px; */
+    /* border: solid; */
+    width:200px;
+    padding-right: 1%;
+    padding-left: 1%;
+    /* background-color: rgba(255, 255, 255, 0.266);
+    outline:yellow 10px; */
+}
+
+.connect2 > img{
+    /* border: solid; */
+    /* border-radius: 0px; */
+    width:200px;
+    padding-right: 1%;
+    padding-left: 1%;
+    /* background-color: rgba(255, 255, 255, 0.266); */
+    outline:yellow 10px;
+}
