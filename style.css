@@ -149,8 +149,11 @@ p{
     font-optical-sizing: auto;
     /* font-weight: 300; */
     /* font-style: ; */
+    /* margin:10px; */
 }
-
+.container2 > p{
+    margin: 10px;
+}
 div.container2, div.container3, div.containerx,.container4{
     /* border: solid rgb(0, 0, 0) 2px; */
     background-color:rgba(0, 0, 0, 0.351);
