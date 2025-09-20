@@ -17,14 +17,30 @@ let x = "dark";
 let sentence = document.querySelector(".detailsPara")
 // let y = "changeParaDark";
 
+// let para = document.querySelector("p")
+
 bttn.addEventListener("click",() =>{
     if(x === "dark"){
         x = "light";
         document.querySelector("body").style.backgroundColor="white"
-        sentence.style.color="black"
-    }else{
+        sentence.style.color="black" 
+        // para.style.color="black"
+    }else if(x == "light"){
         x = "dark"
         document.querySelector("body").style.backgroundColor="black";
-        sentence.style.color="white"
+        sentence.style.color="white" 
     }
 })
+
+
+let num = 0;
+function changeEmoji(){
+    const emojiElement = document.querySelector(".mode");
+    if(num === 0){
+        emojiElement.textContent="🌑";
+        num+=1;
+    }else if (num === 1){
+        emojiElement.textContent="☀️";
+        num-=1;
+    }
+}
