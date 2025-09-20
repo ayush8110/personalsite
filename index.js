@@ -11,7 +11,20 @@ local2.addEventListener("click",function(){
         })
 
 
-// x = document.querySelector(".connect")
-$(".x").m(function(){
-    $("p").slidup();
+let bttn = document.querySelector(".mode")
+let x = "dark";
+
+let sentence = document.querySelector(".detailsPara")
+// let y = "changeParaDark";
+
+bttn.addEventListener("click",() =>{
+    if(x === "dark"){
+        x = "light";
+        document.querySelector("body").style.backgroundColor="white"
+        sentence.style.color="black"
+    }else{
+        x = "dark"
+        document.querySelector("body").style.backgroundColor="black";
+        sentence.style.color="white"
+    }
 })

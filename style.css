@@ -1,6 +1,5 @@
-span{
-    color: rgb(110, 110, 110);
-}
+
+
 body{
     background-color:rgb(14, 14, 14);
 }
@@ -20,10 +19,9 @@ img{
 .details>p{
     position: absolute;
     right: 10px;
-    top: 20px;
+    top: 50px;
     height:100px;
     width: 200px;
-
     /* border: solid; */
     /* font-family: cursive; */
     font-size: 14px;
@@ -158,10 +156,11 @@ p{
 }
 .container2 > p{
     margin: 10px;
+
 }
 div.container2, div.container3, div.containerx,.container4{
     /* border: solid rgb(0, 0, 0) 2px; */
-    background-color:rgba(0, 0, 0, 0.351);
+    background-color:rgba(0, 0, 0, 0.908);
 }
 
 h2{
@@ -195,3 +194,38 @@ h2,h1{
     /* background-color: rgba(255, 255, 255, 0.266); */
     outline:yellow 10px;
 }
+
+
+.mode{
+    position: absolute;
+    left: 350px;
+    top: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
+.Div{
+    /* border: solid; */
+    margin-top: 40px;
+}
+
+.dark{
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+  
+
+    
+}
+
+.light{
+    /* background-color: white; */
+    color: black;
+  
+}
+
+/* .changeParaDark{
+    color:black;
+}
+.changeParaDark{
+    color:white;
+} */
